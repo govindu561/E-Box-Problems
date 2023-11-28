@@ -1,0 +1,396 @@
+Pattern I
+Write a program to generate the given pattern.
+
+Input and Output Format:
+
+Input consists of a single integer that corresponds to n.
+
+Assume that 0<n<=26.
+
+Refer sample output for output formatting specifications.
+
+Sample Input 1 :
+
+5
+
+Sample Output 1:
+
+ABCDE
+
+BCDEA
+
+CDEAB
+
+DEABC
+
+EABCD
+
+
+Sample Input 2 :
+
+6
+
+Sample Output 2:
+
+ABCDEF
+
+BCDEFA
+
+CDEFAB
+
+DEFABC
+
+EFABCD
+
+FABCDE
+
+Pattern II
+Write a program to print the following pattern
+
+1 2 3 4 5
+
+11 13 15 17 19
+
+21 24 27 30 33
+
+31 35 39 43 47
+
+41 46 51 56 61
+
+ 
+Input and Output Format:
+
+Input consists of a single integer that corresponds to n, the number of rows in the pattern.
+
+Refer sample output for output formatting specifications.
+ 
+
+Sample Input 1:
+
+5
+
+Sample Output 1:
+
+1 2 3 4 5
+
+11 13 15 17 19
+
+21 24 27 30 33
+
+31 35 39 43 47
+
+41 46 51 56 61
+ 
+
+Sample Input 2:
+
+3
+
+Sample Output 2:
+
+
+1 2 3 
+11 13 15 
+21 24 27
+
+Pattern III
+
+Write a program to print letter B in a n*n grid.
+Input and Output Format:
+Input consists of a single integer 'n' that corresponds to the size of the grid. Assume that n is always odd.
+
+Refer sample output for formatting specifications.
+
+Sample Input 1:
+
+5
+
+Sample Output 1:
+
+11110
+
+10001
+
+11110
+
+10001
+
+11110
+
+Sample Input 2:
+
+7
+
+Sample Output 2:
+
+1111110
+
+1000001
+
+1000001
+
+1111110
+
+1000001
+
+1000001
+
+1111110
+ 
+
+Sample Input 3:
+
+9
+
+Sample Output 3:
+
+111111110
+
+100000001
+
+100000001
+
+100000001
+
+111111110
+
+100000001
+
+100000001
+
+100000001
+
+111111110
+
+Pattern IV
+
+Write a program to print the following pattern.
+
+1111111
+1222221
+1233321
+1234321
+1233321
+1222221
+1111111
+Input and Output Format:
+
+ 
+
+Input consists of a single integer that corresponds to n; n<=20.
+
+Refer sample output for output formatting specifications.
+
+Sample Input:
+
+4
+
+Sample Output :
+
+1111111
+
+1222221
+
+1233321
+
+1234321
+
+1233321
+
+1222221
+
+1111111
+
+Pattern V
+
+Write a program to print the following pattern
+
+54321
+
+23456
+
+76543
+
+45678
+
+98765
+
+ 
+
+Input and Output Format:
+
+
+Input consists of a single integer that corresponds to n, the number of rows in the pattern.
+
+Refer sample output for output formatting specifications.
+
+ Sample Input 1:
+
+5
+
+Sample Output 1:
+
+54321
+
+23456
+
+76543
+
+45678
+
+98765
+
+Sample Input 2:
+
+3
+
+Sample Output 2:
+
+321
+234
+543
+
+Series-I
+
+Write a program to print the following series.
+
+1 2 5 12 27 58 121 ...
+
+Input and Output Format:
+
+Input consists of a single integer that corresponds to n. n<=25.
+
+Output consists of n integers in the series, separated by a space. There is a trailing space.
+
+ 
+
+Sample Input:
+
+7
+
+Sample Output:
+
+1 2 5 12 27 58 121
+
+Series-II
+
+Write a program to print the following series.
+
+6 13 28 59 122 ...
+
+ 
+
+Input and Output Format:
+
+ 
+
+Input consists of a single integer that corresponds to n. n<=25.
+
+Output consists of n integers in the series, separated by a space. There is a trailing space.
+
+ 
+
+Sample Input:
+
+5
+
+Sample Output:
+
+6 13 28 59 122
+
+Series-III
+Write a program to print the first n terms in the series
+
+2, 6, 11, 10, 15, 21, 18, 24, 31, 26, 33, 41 ....
+
+ 
+
+Input and Output Format:
+
+Input consists of a single integer 'n' that corresponds to the number of terms to be printed.
+
+ 
+
+Output consists of n terms in the series separated by a single space. There is a trailing space at the end of the series.
+
+ 
+
+Sample Input:
+
+12
+
+Sample Output:
+
+2 6 11 10 15 21 18 24 31 26 33 41
+ 
+Series-IV
+Write a program to print the following series.
+
+4 10 28 82 244 730 ....
+
+ 
+
+Input and Output Format:
+
+ 
+
+Input consists of a single integer that corresponds to n.
+
+Output consists of n integers in the series, separated by a space. There is a trailing space.
+
+ 
+
+Sample Input:
+
+6
+
+Sample Output:
+
+4 10 28 82 244 730
+
+Series-V
+If you mention the number “1729” or the phrase “Taxicab Problem” to any mathematician, it will immediately bring up the subject of the self-taught Indian mathematical genius Srinivasa Ramanujan. When Ramanujan was dying of tuberculosis in a hospital, G. H. Hardy would frequently visit him. It was on one of these visits that the following occurred according to C. P. Snow.
+
+“Hardy used to visit him, as he lay dying in hospital at Putney. It was on one of those visits that there happened the incident of the taxicab number. Hardy had gone out to Putney by taxi, as usual his chosen method of conveyance. He went into the room where Ramanujan was lying. Hardy, always inept about introducing a conversation, said, probably without a greeting, and certainly as his first remark: ‘I thought the number of my taxicab was 1729. It seemed to me rather a dull number.’ To which Ramanujan replied: ‘No, Hardy! No, Hardy! It is a very interesting number. It is the smallest number expressible as the sum of two cubes in two different ways.’”
+
+
+Since then, integer solutions to:
+I^3 + J^3 = K^3 + L^3
+have been called “Ramanujan Numbers”.
+
+The first 2 of these are:
+
+ 
+
+1729 (1^3 + 12^3, 9^3 + 10^3)
+
+4104 (2^3 + 16^3, 9^3 + 15^3)
+
+ 
+
+Given a number, write a program to find whether it is a Ramanujam Number or not.
+
+
+Input and Output Format:
+
+Input consists of a single integer.
+
+Output yes if it is a Ramanujam Number. Output no otherwise.
+
+Sample Input 1:
+
+1729
+
+Sample Output 1:
+
+yes
+
+ 
+
+Sample Input 2:
+
+1854
+
+Sample Output 2:
+
+no
