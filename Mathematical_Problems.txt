@@ -107,3 +107,171 @@ Sample Input:
 Sample Output:
 
 3
+
+problem-6
+
+Given two numbers a and b, write a program to find all x such that a % x = b .
+
+ 
+
+Input format:
+
+Input consists of two integers which corresponds to a and b.
+
+ 
+
+Output format:
+
+Output consists of an integer , which corresponds to the count of x such that a % x = b.
+
+ 
+
+Sample Input 1:
+
+21
+
+5
+
+ 
+
+Sample Output 1:
+
+2
+
+ 
+
+Sample Input 2:
+
+5
+
+12
+
+ 
+
+Sample Output 2:
+
+No solution possible
+
+ 
+
+Sample Input 3:
+
+12
+
+12
+
+ 
+
+Sample Output 3:
+
+Infinite solution possible
+
+
+problem-7
+
+Given an positive even integer ‘n’, write a program to count total number of ways to express ‘n’ as sum of even positive integers.
+
+Input format:
+Input consists of an integer n.
+
+Output format:
+Output consists of a number ways to express 'n' as sum of even positive integers.
+
+Sample Input:
+6
+
+Sample Output:
+4
+
+Explanation
+There are only four ways to write 6 as sum of even integers:
+1) 2 + 2 + 2
+2) 2 + 4
+3) 4 + 2
+4) 6
+ 
+ 
+ Problem-8
+ 
+ Given a number n, the task is to calculate its primorial. Primorial (denoted as Pn#) is the product of first n prime numbers. It is denoted with P#.
+
+ 
+
+Input format:
+
+Input consists of an integer n. Assume that the value of n ranges from 1 <n<15.
+
+ 
+
+Output format:
+
+Output corresponds to the product of first n prime numbers.
+
+ 
+
+Sample Input:
+
+3
+
+ 
+
+Sample Output:
+
+30  // 2 * 3 * 5
+
+Problem-9
+
+Given a number n, write a program to print all primes smaller than n. It is also given that n is a small number.
+
+ 
+
+Input format:
+
+Input consists of an integer n.
+
+ 
+
+Output format:
+
+Output is a series of prime numbers which are smaller than n.
+
+ 
+
+Sample Input:
+
+10
+
+ 
+
+Sample Output:
+
+2 3 5 7
+
+Problem-10
+
+Given two integer numbers n and d. The task is to find the number between 0 to n which contain the specific digit d.
+
+ 
+
+Input format:
+
+Input consists of two integers corresponds to n and d. Assume that the value of d ranges from 0 < = d < = 9.
+ 
+
+Output format:
+
+Output corresponds to the numbers between 0 to n, which contains the specific digit d. Each number is separated by a single whitespace.
+
+ 
+
+Sample Input:
+
+20  // n
+
+5    // d
+
+ 
+
+Sample Output:
+
+5 15
