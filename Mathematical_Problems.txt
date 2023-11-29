@@ -1,0 +1,109 @@
+Problem-1:
+
+Given a number 'n', write a program to find the numbers (less than or equal to n) which are both Fibonacci and Prime.
+
+Input format:
+
+Input consists of an integer 'n'.
+
+Output format:
+Output consists of an integer series separated by a space which are both fibonacci and prime.
+Find the fibonacci series upto n and display the prime numbers from the fibonacci series.
+
+Sample Input 1:
+40
+Sample Output 1:
+2 3 5 13
+Sample Input 2:
+1
+Sample Output 2:
+No prime numbers in the fibonacci series
+
+problem-2:
+
+There are n stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. Count the number of ways, the person can reach the top.
+Consider the above diagram with n value 3. From that, we can notice that there are 3 ways to reach top.
+Input format:
+Input contains a single integer n.
+
+Output format:
+Output consists of an integer corresponds to the number of ways to reach the top.
+Sample Input 1:
+1
+Sample Output 1:
+1                                    // There is only one way to climb 1 stair
+Sample Input 2:
+2                                 
+Sample Output 2:
+2                                  // There are two ways: (1, 1) and (2)
+Sample Input 3:
+4
+Sample Output 3:
+5                                 // There are five ways: (1, 1, 1, 1), (1, 1, 2), (1, 2, 1), (2, 1, 1), (2, 2)
+
+Problem-3:
+Given an array of numbers, write a program to find GCD of the array elements
+
+Input format:
+First line of input consists of an integer n, corresponds to the size of array.
+
+The next n lines of input corresponds to the elements in an array.
+Output format:
+Output consists of an integer which corresponds to the GCD of the array elements.
+Sample Input:
+3
+
+2
+4
+6
+Sample Output:
+2
+
+Proble-4:
+Given an array of n numbers, write a program to find LCM of array elements.
+
+Input format:
+
+First line of input consists of an integer n, corresponds to the size of array.
+
+The next n lines of input corresponds to the elements in an array.
+
+ Output format:
+
+Output consists of an integer which corresponds to the LCM of the array elements.
+
+Sample Input:
+
+4
+
+2
+
+1
+
+8
+
+3
+
+Sample Output:
+
+24
+
+Problem-5:
+
+Given a positive integer n, write a program to find the largest prime factor of a number.
+
+Input format:
+
+Input consists of an integer number n. Assume that the n value ranges ( 1 <= n <= 1015).
+
+Output format:
+
+Output contains an integer, which corresponds to the largest prime factor of a given number n.
+
+Sample Input:
+
+6
+
+Sample Output:
+
+3
