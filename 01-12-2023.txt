@@ -1,0 +1,415 @@
+Problem-1:
+Calculate EMI (Equal Monthly Installment), given the loan amount (principal), the interest rate and time in months.
+
+Input format:
+
+First line of input corresponds to principal
+
+Second line of input corresponds to interest rate
+
+Third line of input corresponds to time in months
+
+Output Format:
+
+Output corresponds to the emi amount.
+
+ 
+
+Note :
+
+Display the output correct to 1 decimal place.
+
+ 
+
+Sample Input 1:
+
+10000
+10
+24
+
+Sample Ouput 1:
+
+461.4
+
+ Problem-2
+
+Write a program to find the simple interest for given principal amount P, time N (in years) and rate of interest R.
+
+ 
+
+Input Format:
+
+The first line of input contains an integer, the number of test cases 't'. Each test case should contain three values P, N, R.
+
+Output Format:
+
+For each testcase in new line, print the value of the simple interest
+
+ 
+
+Note:
+
+Round off the output and display
+
+ 
+
+Sample Input :
+
+2
+42
+8
+15
+501
+10
+5
+
+Sample Output:
+
+50
+251
+
+Proble-3:
+You tell your dad that you want Rs.X as pocket-money every month. He can deposit some money in the bank such that the interest he gets will be equal to the money you need. His bank offers him an interest rate of Y% per annum. How much money should he deposit in the bank? 
+
+ 
+
+Input format:
+
+First line of input corresponds to needed pocket money
+
+Second line of input corresponds to the interest rate Y% per annum offered by bank
+
+Output format:
+
+Output corresponds to the money should he deposit in the bank such that the interest he gets will be equal to the money you need
+
+ 
+
+Sample Input 1:
+
+800
+
+6
+
+Sample Output 1:
+
+160000
+
+Problem-4:
+
+Mr. Thomas invested an amount of Rs. X divided in two different schemes A and B at the simple interest rate of A% p.a. and B% p.a. respectively. If the total amount of simple interest earned in 'n' years be Rs. C, what was the amount invested in Scheme B.
+
+ 
+
+Input format:
+
+First line of input corresponds to principal
+
+Second line of input corresponds to interest of scheme A
+
+Third line of input corresponds to interest of scheme B
+
+Fourth line of input corresponds to number of years
+
+Fifth line of input corresponds to the simple interest earned in 'n' years.
+
+Output Format:
+
+Output corresponds to the invested amount in scheme B.
+
+ 
+
+Sample Input 1:
+
+13900
+
+14
+
+11
+
+2
+
+3508
+
+Sample Output 1:
+
+6400
+
+Problem-5:
+
+A person borrows Rs.Z for 'm' years at X% p.a. simple interest. He immediately lends it to another person at Y% p.a for the same 'm' years. Find his gain in the transaction per year.
+
+ 
+
+Input format:
+
+First line of input corresponds to the borrowed amount (Rs. Z)
+
+Second line of input corresponds to the interest rate (X%) that he borrowed
+
+Third line of input corresponds to the interest rate (Y%) that he lends it to the another person
+
+Fourth line of input corresponds to number of years 'm'
+
+Output Format:
+
+Output corresponds to the gain in the transaction per year
+
+ 
+
+Sample Input 1:
+
+5000
+4
+6
+2
+
+Sample Output 1:
+
+100
+
+Prblem-6:
+Develop a program to find simple interest and compund interest for a given principal amount, rate and tenure.
+
+Simple interest is interest paid only on the original principal, not on the interest accrued. Simple interest is determined by multiplying the interest rate by the principal by the number of periods.
+
+When the interest rate is applied to the original principal and any accumulated interest, this is called compound interest.
+
+ 
+
+Input Format :
+
+First line of input corresponds to principal
+
+Second line of input corresponds to rate of interest
+
+Third line of input corresponds to time
+
+Output Format :
+
+FIrst line of output corresponds to simple interest
+
+Second line of output corresponds to compound interest
+
+ 
+
+Note:
+
+Round off the output and display
+
+ 
+
+Sample Input 1:
+
+5000
+
+8
+
+2
+
+Sample Output 1:
+
+800
+
+832
+
+ 
+
+Sample Input 2:
+
+1000
+
+12.256
+
+3
+
+Sample Output 2:
+
+368
+
+415
+
+Problem-7:
+Given two integers N1 and N2 which is the Compound Interest of two consecutive years. Write a program to calculate the rate percentage.
+
+ 
+
+Hint:
+
+The rate percentage can be calculated with the formula ((N2 – N1) * 100) / N1, where N1 is the compound interest of some year and N2 is the compound interest for the next year.
+
+ 
+
+Input Format :
+
+First line of input corresponds to N1 and the second line of input corresponds to N2
+
+Output Format:
+
+Output corresponds to the rate percentage. 
+
+ 
+
+Note:
+
+Display the output correct to 2 decimal places
+
+ 
+
+Sample Input 1:
+
+660
+
+720
+
+Sample Output 1:
+
+9.09
+
+Problem-8:
+Manish opens a Recurring Deposit Account with the Bank of Rajasthan and deposits Rs.X per month for Y months. Calculate the maturity value of this account, if the bank pays interest at the rate of Z% per annum.
+
+ 
+
+Hint:
+
+Formula for calculating SI is 
+
+
+
+ 
+
+Input Format :
+
+First line of input corresponds to principal
+
+Second line of input corresponds to time
+
+Third line of input corresponds to rate of interest
+
+Output Format:
+
+Output corresponds to the maturity value
+
+ 
+
+Sample Input 1:
+
+600
+
+20
+
+10
+
+Sample Output 1:
+
+13050
+
+ 
+
+Explanation:
+
+By the formula, Manish will get Rs.1050 as simple interest. He also deposits Rs.600 for 20 months, so totally he deposits Rs. 12000 (600*20). 
+
+The total amount Manish will get at the time of maturity is Rs. 13050 (12000+1050)
+
+Problem-9:
+Arun deposits a certain sum of money every month is a recurring deposit account for a period of X months. If the bank pays interest at the rate of Y% per annum and Arun gets Rs.Z as the maturity value of this account, what sum of money did he pay every month?
+ 
+
+Hint:
+
+Formula for calculating Simple Interest (SI) is 
+
+
+ 
+
+Input Format :
+
+First line of input corresponds to time
+
+Second line of input corresponds to rate of interest
+
+Third line of input corresponds to maturity value of this account
+
+Output Format:
+
+Output corresponds to the sum of money did he deposits every month
+
+ 
+
+Sample Input 1:
+12
+11
+12715
+
+Sample Output 1:
+1000
+
+Explanation:
+
+By the formula of SI, the person will get Rs.0715y as simple interest. He also deposits Rs.y for 12 months, so totally he deposits Rs.12.715y ((y*12)+0.715y).
+
+By having the total amount Arun will get at the time of maturity is Rs. 12715 and the maturity value Rs.12.715y, we can find how much did he deposited every month 
+
+y = 12715/12.715 = 1000
+ 
+Problem-10:
+
+Each of A and B both opened recurring deposit accounts in a bank. If A deposited Rs.X per month for M months and B deposited Rs.Y for N months. Find on maturity who will get more amount and by how much? The rate of interest paid by the bank is R% per annum.
+
+ 
+
+Hint:
+
+Formula for calculating SI is 
+
+
+
+ 
+
+Input Format :
+
+First line of input corresponds to principal of person A
+
+Second line of input corresponds to time of person A
+
+Third line of input corresponds to principal of person B
+
+Fourth line of input corresponds to time of person B
+
+Fifth line of input corresponds to rate of interest paid by the bank
+
+Output Format:
+
+First line of output corresponds to the Person (A or B) who will get more amount 
+
+Second line of output corresponds to amount gained by Person (A or B)
+
+ 
+
+Sample Input 1:
+
+1200
+36
+1500
+30
+10
+
+Sample Output 1:
+
+B
+953
+ 
+
+Explanation:
+
+By the formula, Person A will get Rs.6660 as simple interest. He also deposits Rs.1200 for 36 months, so totally he deposits Rs.43200 (1200*36). 
+
+The total amount Person A will get at the time of maturity is Rs. 49860 (43200+6660)
+
+By the formula, Person B will get Rs.5812.5 as simple interest. He also deposits Rs.1500 for 30 months, so totally he deposits Rs.45000 (1500*30). 
+
+The total amount Person A will get at the time of maturity is Rs. 50813 (45000+5812.5)
+
+So, Person B will get more money than A by Rs.953 (50813−49860) 
